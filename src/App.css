@@ -1,6 +1,73 @@
 .App {
   text-align: center;
+  /* margin-top: 38px;
+  margin-left: 80px; */
 }
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.Hero {
+  display: flex;
+  /* gap: 0px; */
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: top;
+  width: 100%;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #183A58;
+}
+
+
+.HeroGroup {
+  display: flex;
+  flex-direction: column;
+  padding-top: 38px;
+  padding-left: 50px;
+}
+
+.crystal-one {
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  width: 53vw;
+  /* sclae to fit */
+  overflow: hidden;
+  object-fit: cover;
+  /* crop the extra image */
+  object-position: left top;
+  /* only scale height*/
+  height: auto;
+
+}
+
+.crystal-one-container {
+
+  flex-basis: 50%;
+  height: 100vh;
+  flex-shrink: 2;
+  display: flex;
+  overflow: hidden;
+  padding-left: 0rem;
+  align-items: flex-end;
+
+}
+
+.Remaining {
+  margin-top: 10px;
+}
+
+/* .crystal-one:hover {
+  transform: rotate(-4deg);
+  position: relative;
+  top: 5px;
+  transition: all .6s ease-in-out;
+} */
+
 
 .App-logo {
   height: 40vmin;
@@ -32,6 +99,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
