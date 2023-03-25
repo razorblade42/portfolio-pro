@@ -95,10 +95,10 @@ const styles = StyleSheet.create({
         lineHeight: "21px",
         color: "#FFFFFF",
         letterSpacing: "0.04em",
-        mixBlendMode: "overlay",
+        // mixBlendMode: "overlay",
         // width: "59px",
         height: "42px",
-        borderBottom: "7px solid #f15bb5",
+        borderBottom: "7px solid #F6683C",
 
     },
     hero__text_highlight: {

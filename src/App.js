@@ -6,6 +6,7 @@ import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import Experiences from './components/Experiences';
+import Technologies from './components/Technologies';
 // get the image
 import crystal_one from './assets/crystal_one.png';
 function App() {
@@ -22,6 +23,7 @@ function App() {
         </div>
         <div className="Remaining">
           <AboutMe />
+          <Technologies />
           <Experiences />
           <Projects />
           <Footer />
