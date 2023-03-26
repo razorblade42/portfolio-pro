@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar';
 import Hero from './components/Hero';
@@ -36,7 +36,7 @@ function App() {
             <Hero />
           </div>
           {/* put image here */}
-          <img className="crystal-one" src={crystal_one} />
+          <img className="crystal-one" src={crystal_one} alt="crystal one" />
         </div>
         <div className="Remaining">
           <AboutMe aboutMeRef={aboutMeRef} />
