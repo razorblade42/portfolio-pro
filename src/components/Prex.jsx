@@ -45,9 +45,10 @@ const styles = StyleSheet.create({
         alignItems: "flex-start",
         gap: "10px",
         padding: "20px",
-        maxWidth: "500px",
+        maxWidth: "580px",
         height: "auto",
         color: "#FFFFFF",
+
     },
     prex__heading: {
         display: "flex",
@@ -73,7 +74,7 @@ const styles = StyleSheet.create({
         justifyContent: "flex-start",
         alignItems: "flex-start",
         gap: "10px",
-        maxWidth: "92%",
+        maxWidth: "95%",
         height: "auto",
         padding: "19px",
         // border: "5px solid rgb(246, 104, 60)",
@@ -84,6 +85,7 @@ const styles = StyleSheet.create({
     prex__description__item: {
         fontSize: "1rem",
         textAlign: "left",
+        whiteSpace: "pre-wrap",
     },
     prex__company: {
         color: "rgb(246, 104, 60)",

@@ -1,8 +1,8 @@
 import { StyleSheet, css } from "aphrodite"
 import Crystal_two from "../assets/Crystal_two.png"
-const AboutMe = () => {
+const AboutMe = ({ aboutMeRef }) => {
     return (
-        <div className={css(styles.aboutMe)}>
+        <div ref={aboutMeRef} className={css(styles.aboutMe)}>
             <div className={css(styles.aboutMe__title)}>
                 About Me
             </div>
@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
         flexDirection: "column",
         alignItems: "flex-start",
         gap: "25px",
-        paddingLeft: "31px",
+        paddingLeft: "61px",
         borderBottom: "1px solid #183A58",
     },
     aboutMe__title: {

@@ -65,26 +65,13 @@ const experiences = [
 
 ];
 
-
-const Experiences = () => {
+const Experiences = ({ experiencesRef }) => {
     return (
-        <div className={css(styles.experiences)}>
+        <div ref={experiencesRef} className={css(styles.experiences)}>
             <div className={css(styles.experiences__title)}>
                 Experiences
             </div>
-            {/* <div className={css(styles.experiences__list)}>
-              
-            </div> */}
-            <marquee
-                id="marquee"
-                onMouseOver={() => {
-                    document.getElementById("marquee").stop()
-                }}
-
-                onMouseOut={() => {
-                    document.getElementById("marquee").start()
-                }}
-                behavior="scroll" direction="left" >
+            <div className={css(styles.experiences__list)}>
                 {experiences.map((experience, index) => (
                     <div key={index} className={css(styles.experiences__list__item)}>
                         <Prex
@@ -96,7 +83,8 @@ const Experiences = () => {
                         />
                     </div>
                 ))}
-            </marquee>
+            </div>
+
         </div>
 
     );
@@ -109,10 +97,13 @@ const styles = StyleSheet.create({
     experiences: {
         display: "flex",
         flexDirection: "column",
+
         alignItems: "flex-start",
         gap: "25px",
-        paddingLeft: "31px",
+        paddingLeft: "61px",
         borderBottom: "1px solid #183A58",
+        marginTop: "25px",
+        paddingBottom: "50px",
     },
     experiences__title: {
         fontFamily: "DM Sans",
@@ -126,8 +117,22 @@ const styles = StyleSheet.create({
         display: "flex",
         flexDirection: "row",
         gap: "25px",
+        flexWrap: "wrap",
+
     },
     experiences__list__item: {
-        // width: "100%",
+        width: "auto",
+        borderLeft: "2px solid rgb(246, 104, 60)",
+        borderBottom: "2px solid rgb(246, 104, 60)",
+        borderRight: "2px solid rgb(246, 104, 60)",
+        borderRadius: "45px",
+
+        ":hover": {
+            // cursor: "pointer",
+            scale: "1.05",
+            // make transition smooth
+            transition: "all 0.5s ease-in-out",
+        }
+        // put some shadow here
     },
 });

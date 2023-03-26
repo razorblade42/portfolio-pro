@@ -73,9 +73,9 @@ const styles = StyleSheet.create({
         flexDirection: "column",
         alignItems: "flex-start",
         gap: "25px",
-        paddingLeft: "31px",
+        paddingLeft: "61px",
         borderBottom: "1px solid #183A58",
-        paddingRight: "31px",
+        paddingRight: "61px",
     },
     aboutMe__title: {
 
