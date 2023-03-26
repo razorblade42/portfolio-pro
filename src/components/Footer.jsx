@@ -3,10 +3,10 @@ import footer from "../assets/footer.png";
 import { MapPin, Phone, FacebookLogo, InstagramLogo, EnvelopeSimple, LinkedinLogo } from "phosphor-react";
 
 const links = {
-    facebook: "https://www.facebook.com/crystal.lee.581",
-    instagram: "https://www.instagram.com/crystal_lee_581/",
+    facebook: "https://www.facebook.com/profile.php?id=100012301113924",
+    instagram: "https://www.instagram.com/a_raj_774/",
     email: "mailto:araj00990@gmail.com",
-    linkedin: "https://www.linkedin.com/in/crystal-lee-581/",
+    linkedin: "https://www.linkedin.com/in/himanshu-056b461a4/",
 }
 
 const Footer = ({ footerRef }) => {
@@ -28,13 +28,13 @@ const Footer = ({ footerRef }) => {
                 <div className={css(styles.footer__end_text)}>
                     <MapPin size={30} weight="bold" color="#F6683C" />
                     <div className={css(styles.footer__end_text__address)}>
-                        1234 Street Name, City Name, United States
+                        122 B3,IIT Goa Main Campus, GEC, Farmagudi, Goa 403401
                     </div>
                 </div>
                 <div className={css(styles.footer__end_text)}>
                     <Phone size={30} weight="bold" color="#F6683C" />
                     <div className={css(styles.footer__end_text__address)}>
-                        +1 234 567 890
+                        +91 7488978136
                     </div>
                 </div>
                 <div className={css(styles.footer__end__social)}>
@@ -80,7 +80,6 @@ const styles = StyleSheet.create({
     footer__content__title: {
         position: "absolute",
         width: "188px",
-
         color: "#FFFFFF",
         fontFamily: "DM Sans",
         fontStyle: "normal",
@@ -138,5 +137,7 @@ const styles = StyleSheet.create({
         paddingTop: "60px",
         mixBlendMode: "overlay",
     },
-
+    footer__end_text__address: {
+        textAlign: "left",
+    }
 });

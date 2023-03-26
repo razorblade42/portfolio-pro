@@ -3,7 +3,7 @@ import { css, StyleSheet } from "aphrodite";
 
 const Prex = (description) => (
     console.log(description),
-    <Box>
+    <Box className={css(styles.prex__box)}>
         <div className={css(styles.prex)}>
             <div className={css(styles.prex__heading)}>
                 <div className={css(styles.prex__title)}>
@@ -38,16 +38,18 @@ const Prex = (description) => (
 
 export default Prex;
 const styles = StyleSheet.create({
+
     prex: {
         display: "flex",
         flexDirection: "column",
-        justifyContent: "space-between",
+        justifyContent: "space-around",
         alignItems: "flex-start",
         gap: "10px",
         padding: "20px",
         maxWidth: "580px",
         height: "auto",
         color: "#FFFFFF",
+        minHeight: "360px",
 
     },
     prex__heading: {
