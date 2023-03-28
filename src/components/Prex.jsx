@@ -2,7 +2,7 @@ import Box from "./Box";
 import { css, StyleSheet } from "aphrodite";
 
 const Prex = (description) => (
-    console.log(description),
+
     <Box className={css(styles.prex__box)}>
         <div className={css(styles.prex)}>
             <div className={css(styles.prex__heading)}>

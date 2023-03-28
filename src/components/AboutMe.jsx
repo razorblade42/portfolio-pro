@@ -8,11 +8,11 @@ const AboutMe = ({ aboutMeRef }) => {
             </div>
             <div className={css(styles.aboutMe__content)}>
                 <div className={css(styles.aboutMe__content__text)}>
-                    Hi there! My name is Shallom, and I am a highly creative and driven product designer with a passion for designing innovative and user-friendly products. With over 5 years of experience in the industry, I have developed a unique skill set that allows me to turn complex concepts into intuitive and beautiful designs that people love to use.
+                    Hello! My name is Himanshu, and I am a recent Computer Science graduate from IIT Goa. I have gained valuable experience in various software development roles and worked on several projects that have enhanced my technical skills and problem-solving abilities.
                     <br /> <br />
-                    I have a strong background in Graphics design, and I always stay up to date with the latest design trends and technology. My design philosophy is centered around empathy and understanding the needs of the end-user, and I take a user-centered approach to all my projects to ensure that every design solves real-world problems and meets the needs of the target audience.
+                    During my six-month internship at Cognam Technologies, I learned about the ANTLR and implemented those functions for building a Linter for a Web Template Engine. In addition, I worked on various Type systems, Type inference, and scoping algorithms, and implemented various functions for syntax and semantic validators in JavaScript. This experience has equipped me with a deep understanding of software development processes, tools, and techniques.
                     <br /> <br />
-                    Throughout my career, I have worked with a diverse range of clients, from startups to Tech companies, and I have consistently delivered high-quality designs that have exceeded their expectations. I have a knack for communicating complex ideas to stakeholders, and I am skilled at managing the design process from start to finish, including conducting user research, prototyping, and testing.
+                    In my previous role as an SDE Intern at Oxytocin, I worked as a Fullstack Developer for an Ad-making software product that is used by major companies like Spotify and Amazon. I created various APIs for the backend to retrieve data from the data server and learned various skills and stacks like Node, Typescript, React, MySQL, and AWS(Amplify, S3) to build and deploy various services of the application. I also took responsibility for the project throughout the whole pipeline and for the end-to-end delivery of the product.
                 </div>
                 <div className={css(styles.aboutMe__content__image)}>
                     <img src={Crystal_two} alt="Crystal" />
